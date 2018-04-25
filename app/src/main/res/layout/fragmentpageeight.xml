@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.google.cloud.android.speech.fragments.PageEight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/nospinzone">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/arrows"
+            android:id="@+id/arrows" />
+
+        <Button
+            android:id="@+id/blossom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX=".75"
+            android:scaleY=".75" />
+
+        <Button
+            android:id="@+id/tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="0dp"
+            android:scaleX=".75"
+            android:scaleY=".75" />
+
+        <Button
+            android:id="@+id/sprout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:scaleY=".75"
+            android:scaleX=".75" />
+
+        <Button
+            android:id="@+id/seed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleY=".75"
+            android:scaleX=".75"
+             />
+
+        <Button
+            android:id="@+id/apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX=".75"
+            android:scaleY=".75" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

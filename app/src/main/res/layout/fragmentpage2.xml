@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="1dp"
+    android:duplicateParentState="true"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/linearLayout4"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Page2DirtLeft"
+            android:layout_weight="1"
+            android:background="@drawable/dirt_bare"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Page2DirtRight"
+            android:layout_weight="1"
+            android:background="@drawable/dirt_bare"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Page2DirtCenter"
+            android:layout_weight="1"
+            android:background="@drawable/dirt_bare"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/MainDirt2"
+            android:background="@drawable/page2appleseed"
+            android:layout_marginBottom="130dp"
+            android:layout_above="@+id/Page2DirtLeft"
+            android:layout_toEndOf="@+id/Page2AppleCenter" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Page2AppleCenter"
+            android:background="@drawable/page2appleseed"
+            android:layout_alignBaseline="@+id/MainDirt2"
+            android:layout_alignBottom="@+id/MainDirt2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Page2AppleLeft"
+            android:background="@drawable/page2appleseed"
+            android:layout_alignBaseline="@+id/Page2AppleCenter"
+            android:layout_alignBottom="@+id/Page2AppleCenter"
+            android:layout_toStartOf="@+id/Page2AppleCenter" />
+    </RelativeLayout>
+
+</RelativeLayout>

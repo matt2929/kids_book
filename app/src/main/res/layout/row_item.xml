@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="12">
+
+    <TextView
+        android:id="@+id/wordInccorect"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:text="Word"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:text="Duration"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/Duration"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+</LinearLayout>
+
